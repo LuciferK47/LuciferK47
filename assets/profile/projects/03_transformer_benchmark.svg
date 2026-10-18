@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170" width="100%" height="auto" style="background:#0A0D14;border-radius:6px;border:1px solid #1C2436;">
+  <defs>
+    <pattern id="diagGrid3" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#141B28" stroke-width="0.75"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .lbl { font-size: 9px; fill: #6B7C96; letter-spacing: 0.08em; }
+      .val { font-size: 11px; fill: #E2E8F0; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="760" height="170" fill="#0A0D14"/>
+  <rect width="760" height="170" fill="url(#diagGrid3)"/>
+
+  <!-- Top Metadata Header -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="0" class="mono lbl" fill="#B66DDF">SYS.MOD // 03</text>
+    <text x="80" y="0" class="mono lbl">&#8226;</text>
+    <text x="95" y="0" class="mono lbl">ATTENTION GEOMETRY &amp; PERPLEXITY EVALUATION</text>
+    <rect x="580" y="-10" width="138" height="18" fill="#141026" stroke="#B66DDF" stroke-width="0.8" rx="2"/>
+    <text x="586" y="2" class="mono" font-size="8.5" fill="#CBB4E8" font-weight="700">&#8722;32.2% PERPLEXITY DROP</text>
+  </g>
+
+  <!-- Block 1: Attention Variants Evaluated -->
+  <g transform="translate(24, 38)">
+    <rect x="0" y="0" width="260" height="106" fill="#0E131E" stroke="#222C3E" rx="4"/>
+    <text x="14" y="22" class="mono lbl">ARCHITECTURAL ABLATIONS</text>
+    
+    <!-- Mini Matrices: MHA vs GQA vs Sliding -->
+    <g transform="translate(14, 34)">
+      <!-- MHA standard -->
+      <rect x="0" y="0" width="28" height="28" fill="#1A2234" stroke="#3A4A68"/>
+      <line x1="0" y1="0" x2="28" y2="28" stroke="#38BDF8" stroke-width="0.8"/>
+      <text x="2" y="38" class="mono" font-size="7.5" fill="#7D8D9F">DENSE</text>
+
+      <!-- GQA -->
+      <rect x="42" y="0" width="28" height="28" fill="#1A1828" stroke="#B66DDF"/>
+      <rect x="42" y="0" width="28" height="7" fill="#B66DDF" opacity="0.3"/>
+      <rect x="42" y="14" width="28" height="7" fill="#B66DDF" opacity="0.3"/>
+      <text x="44" y="38" class="mono" font-size="7.5" fill="#B66DDF">GQA</text>
+
+      <!-- Sliding Window -->
+      <rect x="84" y="0" width="28" height="28" fill="#132128" stroke="#38BDF8"/>
+      <polygon points="84,0 98,0 112,14 112,28 98,28 84,14" fill="#38BDF8" opacity="0.3"/>
+      <text x="82" y="38" class="mono" font-size="7.5" fill="#38BDF8">WINDOW</text>
+
+      <!-- Linear / RoPE -->
+      <rect x="126" y="0" width="28" height="28" fill="#1A2234" stroke="#485D7B"/>
+      <line x1="126" y1="14" x2="154" y2="14" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="124" y="38" class="mono" font-size="7.5" fill="#7D8D9F">ROPE</text>
+    </g>
+
+    <text x="14" y="96" class="mono lbl" fill="#38BDF8">KV-CACHE FOOTPRINT OPTIMIZED</text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <g transform="translate(290, 90)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#B66DDF" stroke-width="1.5"/>
+    <polygon points="22,0 17,-3 17,3" fill="#B66DDF"/>
+    <text x="0" y="-8" class="mono lbl" font-size="7.5">TRAIN</text>
+  </g>
+
+  <!-- Block 2: Benchmark Environment -->
+  <g transform="translate(318, 38)">
+    <rect x="0" y="0" width="210" height="106" fill="#0E131E" stroke="#222C3E" rx="4"/>
+    <text x="14" y="22" class="mono lbl">BENCHMARK PIPELINE</text>
+    <text x="14" y="44" class="mono val" fill="#F0F3F8">WikiText-2 Test Harness</text>
+    <text x="14" y="66" class="mono" font-size="9.5" fill="#8F9EAF">&#8226; RoPE vs ALiBi Positional</text>
+    <text x="14" y="82" class="mono" font-size="9.5" fill="#8F9EAF">&#8226; Linear Attention Kernels</text>
+    <text x="14" y="98" class="mono lbl" fill="#B66DDF">DETERMINISTIC EVALUATION</text>
+  </g>
+
+  <!-- Arrow 2 to 3 -->
+  <g transform="translate(534, 90)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#38BDF8" stroke-width="1.5"/>
+    <polygon points="22,0 17,-3 17,3" fill="#38BDF8"/>
+    <text x="2" y="-8" class="mono lbl" font-size="7.5">PPL</text>
+  </g>
+
+  <!-- Block 3: Perplexity Curve -->
+  <g transform="translate(562, 38)">
+    <rect x="0" y="0" width="174" height="106" fill="#0E131E" stroke="#222C3E" rx="4"/>
+    <text x="14" y="22" class="mono lbl">VALIDATION PERPLEXITY</text>
+    
+    <!-- Mini Chart Graph -->
+    <g transform="translate(14, 30)">
+      <!-- Axes -->
+      <line x1="0" y1="45" x2="140" y2="45" stroke="#243044" stroke-width="1"/>
+      <line x1="0" y1="5" x2="0" y2="45" stroke="#243044" stroke-width="1"/>
+      <!-- Baseline dotted line -->
+      <line x1="5" y1="12" x2="135" y2="12" stroke="#52627A" stroke-width="1" stroke-dasharray="2 2"/>
+      <text x="90" y="10" class="mono" font-size="7.5" fill="#6A7A90">BASELINE</text>
+      <!-- Descent Curve -->
+      <path d="M 5 14 Q 30 25 70 34 T 135 38" fill="none" stroke="#B66DDF" stroke-width="2"/>
+      <circle cx="135" cy="38" r="3" fill="#38BDF8"/>
+      <text x="15" y="42" class="mono" font-size="8.5" fill="#B66DDF" font-weight="700">&#8722;32.2% PPL</text>
+    </g>
+
+    <text x="14" y="98" class="mono lbl" fill="#38BDF8">ACCURACY PRESERVED</text>
+  </g>
+</svg>
