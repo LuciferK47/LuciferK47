@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" aria-label="AI-Assisted LaTeX Workspace">
+  <rect width="400" height="250" fill="#0c0e13"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7df9ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+  <!-- Stacked translucent sheets representing pages -->
+  <rect x="80" y="70" width="240" height="140" fill="url(#grad)" opacity="0.6" filter="url(#blur)" transform="rotate(-2 200 140)"/>
+  <rect x="85" y="65" width="240" height="140" fill="url(#grad)" opacity="0.4" filter="url(#blur)" transform="rotate(1 205 135)"/>
+  <text x="50%" y="55%" text-anchor="middle" fill="#f0f1f5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700">AI‑Assisted LaTeX</text>
+  <text x="50%" y="70%" text-anchor="middle" fill="#9aa3b2" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">Editor • Compiler</text>
+</svg>

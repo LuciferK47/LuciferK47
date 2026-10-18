@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" aria-label="LRNNX S6 (Mamba)">
+  <rect width="400" height="250" fill="#0c0e13"/>
+  <defs>
+    <radialGradient id="grad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ff7eb3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff7eb3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+  <circle cx="200" cy="125" r="150" fill="url(#grad)" filter="url(#blur)"/>
+  <text x="50%" y="55%" text-anchor="middle" fill="#f0f1f5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700">LRNNX S6 (Mamba)</text>
+  <text x="50%" y="70%" text-anchor="middle" fill="#9aa3b2" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">State‑space + CUDA</text>
+</svg>
