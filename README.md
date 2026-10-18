@@ -31,7 +31,13 @@
   <br>
   <br>
 
-  <!-- Retro Web Badges (Enlarged) -->
+  <!-- Language Distribution Diagnostics -->
+  <img src="assets/languages-chart.gif" width="520" alt="Languages Distribution Diagnostics">
+
+  <br>
+  <br>
+
+  <!-- Retro Web Badges -->
   <img src="assets/badge-cuda.png" width="112" height="36" alt="CUDA Accelerated">
   <img src="assets/badge-silicon.png" width="112" height="36" alt="1.2V Silicon">
   <img src="assets/badge-linux.png" width="112" height="36" alt="Linux Kernel">
@@ -41,7 +47,7 @@
   <br>
   <br>
 
-  <!-- Retro Contact Buttons (Enlarged) -->
+  <!-- Retro Contact Buttons -->
   <a href="https://linkedin.com/in/kushagra-singh47"><img src="assets/btn-linkedin.png" width="112" height="36" alt="LinkedIn"></a>
   <a href="mailto:f20231210@goa.bits-pilani.ac.in"><img src="assets/btn-email.png" width="112" height="36" alt="Email"></a>
   <a href="https://github.com/LuciferK47"><img src="assets/btn-github.png" width="112" height="36" alt="GitHub"></a>
