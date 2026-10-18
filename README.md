@@ -6,7 +6,11 @@
 
 <img src="assets/cyber-pet.gif" align="right" width="54" alt="cyber companion">
 
-**synthesizing silicon**&nbsp;&nbsp;<img src="assets/tiny-chip.gif" width="20" height="20" valign="middle" alt="silicon">&nbsp;&nbsp;&nbsp;&nbsp;**taming cuda**&nbsp;&nbsp;<img src="assets/tiny-gpu.gif" width="20" height="20" valign="middle" alt="gpu">&nbsp;&nbsp;&nbsp;&nbsp;**flipping spins**&nbsp;&nbsp;<img src="assets/tiny-spin.gif" width="20" height="20" valign="middle" alt="spin">
+<div align="center">
+  <img src="assets/capsule-silicon.gif" width="172" height="34" alt="Synthesizing Silicon">
+  <img src="assets/capsule-cuda.gif" width="172" height="34" alt="Taming CUDA">
+  <img src="assets/capsule-spins.gif" width="172" height="34" alt="Flipping Spins">
+</div>
 
 <br clear="both">
 <br>
@@ -27,20 +31,20 @@
   <br>
   <br>
 
-  <!-- Retro Web Badges -->
-  <img src="assets/badge-cuda.png" width="88" height="31" alt="CUDA Accelerated">
-  <img src="assets/badge-silicon.png" width="88" height="31" alt="1.2V Silicon">
-  <img src="assets/badge-linux.png" width="88" height="31" alt="Linux Kernel">
-  <img src="assets/badge-bits.png" width="88" height="31" alt="BITS Goa">
-  <img src="assets/badge-c99.png" width="88" height="31" alt="ISO C99">
+  <!-- Retro Web Badges (Enlarged) -->
+  <img src="assets/badge-cuda.png" width="112" height="36" alt="CUDA Accelerated">
+  <img src="assets/badge-silicon.png" width="112" height="36" alt="1.2V Silicon">
+  <img src="assets/badge-linux.png" width="112" height="36" alt="Linux Kernel">
+  <img src="assets/badge-bits.png" width="112" height="36" alt="BITS Goa">
+  <img src="assets/badge-c99.png" width="112" height="36" alt="ISO C99">
 
   <br>
   <br>
 
-  <!-- Retro Contact Buttons -->
-  <a href="https://linkedin.com/in/kushagra-singh47"><img src="assets/btn-linkedin.png" width="88" height="31" alt="LinkedIn"></a>
-  <a href="mailto:f20231210@goa.bits-pilani.ac.in"><img src="assets/btn-email.png" width="88" height="31" alt="Email"></a>
-  <a href="https://github.com/LuciferK47"><img src="assets/btn-github.png" width="88" height="31" alt="GitHub"></a>
+  <!-- Retro Contact Buttons (Enlarged) -->
+  <a href="https://linkedin.com/in/kushagra-singh47"><img src="assets/btn-linkedin.png" width="112" height="36" alt="LinkedIn"></a>
+  <a href="mailto:f20231210@goa.bits-pilani.ac.in"><img src="assets/btn-email.png" width="112" height="36" alt="Email"></a>
+  <a href="https://github.com/LuciferK47"><img src="assets/btn-github.png" width="112" height="36" alt="GitHub"></a>
 
   <br>
   <br>
