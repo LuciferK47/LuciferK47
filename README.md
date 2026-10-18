@@ -1,21 +1,21 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=160&text=Kushagra%20Singh&fontSize=46&fontColor=58a6ff&fontAlignY=38&desc=SILICON%20%C2%B7%20SYSTEMS%20%C2%B7%20INTELLIGENCE&descSize=15&descAlignY=68&descAlign=50&stroke=30363d&strokeWidth=1" width="100%" alt="Kushagra Singh Banner" />
+<!-- Custom Dynamic Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=180&text=KUSHAGRA%20SINGH&fontSize=48&fontColor=58a6ff&fontAlignY=38&desc=SILICON%20%C2%B7%20SYSTEMS%20%C2%B7%20INTELLIGENCE&descSize=14&descAlignY=68&descAlign=50&stroke=30363d&strokeWidth=1" width="100%" alt="Header Banner" />
 
 <br />
 
-<!-- Action / Social Badges -->
+<!-- Action Badges -->
 <a href="https://linkedin.com/in/kushagra-singh47">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:your-email@domain.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 &nbsp;
 <a href="https://github.com/LuciferK47">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 </div>
@@ -24,27 +24,27 @@
 
 ---
 
-### Profile Overview
+### Systems & Architecture Profile
 
-Engineering student at **BITS Pilani, Goa**, focused on building across abstraction layers—ranging from hardware-efficient spintronic circuits and firmware to sequence modeling, edge control, and full-stack software.
+Computer Science & Engineering student at **BITS Pilani, Goa**, engineering across fundamental abstraction layers—from spintronic hardware circuits and custom firmware to sequence modeling, real-time edge control, and web architectures.
 
-Specialized in high-performance, low-latency architectures grounded in physical principles and hardware dynamics.
+Specializing in low-latency systems, kernel-level optimizations, and compute-efficient model runtimes.
 
 > *"How far down the stack can we optimize this?"*
 
-* **Current Research & Engineering Focus:** State-space models (Mamba/S6), linear RNN sequence dynamics, and hardware-efficient edge AI.
-* **Core Methodology:** Translating theoretical research into reproducible, production-grade tools with clean benchmarks, quantization pipelines, and minimal runtime overhead.
+* **Active Domain Exploration:** State-space models (Mamba/S6), linear RNN sequence dynamics, edge AI quantization, and memory-bound parallel execution.
+* **Core Philosophy:** Mapping mathematical research directly into deterministic, zero-overhead production implementations with rigorous benchmarking pipelines.
 
 ---
 
-### Selected Engineering & Research Work
+### Featured Systems Engineering & Research
 
 <table>
   <thead>
     <tr>
-      <th width="28%" align="left">Project</th>
-      <th width="52%" align="left">Architecture & Breakthroughs</th>
-      <th width="20%" align="left">Core Stack</th>
+      <th width="28%" align="left">Architecture</th>
+      <th width="50%" align="left">Engineering Scope & Benchmarks</th>
+      <th width="22%" align="left">Stack</th>
     </tr>
   </thead>
   <tbody>
@@ -94,20 +94,20 @@ Specialized in high-performance, low-latency architectures grounded in physical 
 
 ---
 
-### Core Tooling & Technologies
+### Technical Tooling & Environment
 
 <div align="center">
   <br />
-  <img src="https://skillicons.dev/icons?i=python,ts,cpp,rust,c,react,svelte,fastapi,pytorch,docker,linux,git&perline=6" alt="Technologies" />
+  <img src="https://skillicons.dev/icons?i=python,ts,cpp,rust,c,react,svelte,fastapi,pytorch,docker,linux,git&perline=6" alt="Tooling Stack" />
   <br /><br />
 </div>
 
 ---
 
-### Repository Insights & Activity
+### Compute & Commit Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LuciferK47&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_color=30363d&hide_border=false" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=LuciferK47&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_color=30363d&hide_border=false" width="48%" alt="GitHub Overview" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuciferK47&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d&hide_border=false" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuciferK47&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d&hide_border=false" width="48%" alt="Language Breakdown" />
 </div>
